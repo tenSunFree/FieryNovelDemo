@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4e3b1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:id="@+id/contentTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        威農德思禮先生在一家名叫格朗寧的公司做主管，公司生產鑽機。他高大魁梧，胖得幾乎連脖子都沒了，卻蓄著一臉大鬍子。德思禮太太是個瘦削的金髮女人。她的脖子幾乎比正常人長一倍。這樣每當她花許多時間隔著籬牆引頸而望、窺探左鄰右舍時，她的長脖子可就派上了大用場。德思禮夫婦有一個小兒子，名叫達力。在他們看來，人世間沒有比達力更好的孩子了。"
+            android:textColor="#d96b0c"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textColor="#539bd9"
+            android:id="@+id/pageNumberTextView"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="4dp"
+            android:text="第1頁"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4e3b1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginTop="14dp"
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="第１章　大難不死的男孩"
+            android:textColor="#14325c"
+            android:textSize="25sp"/>
+
+        <View
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#14325c"/>
+
+        <TextView
+            android:layout_marginTop="24dp"
+            android:id="@+id/contentTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        家住水蠟樹街四號的德思禮夫婦總是得意地說他們是非常規矩的人家。拜託，拜託了。他們從來跟神秘古怪的事不沾邊，因為他們根本不相信那些邪門歪道。"
+            android:textColor="#d96b0c"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textColor="#539bd9"
+            android:id="@+id/pageNumberTextView"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="4dp"
+            android:text="第1頁"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</FrameLayout>
